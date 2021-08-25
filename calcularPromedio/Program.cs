@@ -10,7 +10,7 @@ namespace calcularPromedio
     {
         static void Main(string[] args)
         {
-            float primerNota, segundaNota, tereraNota, Promedio;
+            float primerNota, segundaNota, tereraNota, promedio;
 
             Console.Write("Digite su primer nota: ");
             primerNota = float.Parse(Console.ReadLine());
@@ -19,9 +19,9 @@ namespace calcularPromedio
             Console.Write("Digite su tercera nota: ");
             tereraNota = float.Parse(Console.ReadLine());
 
-            Promedio = (primerNota + segundaNota + tereraNota) / 3;
+            promedio = (primerNota + segundaNota + tereraNota) / 3;
 
-            if(Promedio > 3)
+            if(promedio > 3)
             {
                 Console.WriteLine("Asignatura aprobada.");
             } else
